@@ -2,8 +2,35 @@ body {
     font-family: Helvetica, sans-serif;
     background-color: darkcyan;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
-link {
+a:link {
     color: black;
+}
+
+nav {
+    flex-direction: row;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    border: solid 5px darkgray;
+}
+
+section h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    border-top: solid 3px darkgray;
+    border-bottom: solid 3px darkgray;
+    padding: 5px;
 }
