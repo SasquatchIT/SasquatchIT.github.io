@@ -22,6 +22,8 @@ img {
     margin: auto;
     width: 60%;
     border: solid 5px darkgray;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
 }
 
 section h2 {
@@ -30,7 +32,16 @@ section h2 {
 
 p {
     font-size: 16px;
-    border-top: solid 3px darkgray;
-    border-bottom: solid 3px darkgray;
+    border-top: solid 3px lightgray;
+    border-bottom: solid 3px lightgray;
     padding: 5px;
+    background-color: rgb(75, 73, 86);
+}
+
+.buttonToggle {
+    background-color: coral;
+}
+
+.buttonHead {
+    flex-direction: row;
 }
