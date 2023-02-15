@@ -20,7 +20,7 @@ nav {
 img {
     display: block;
     margin: auto;
-    width: 60%;
+    width: 45%;
     border: solid 5px darkgray;
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
@@ -44,4 +44,20 @@ p {
 
 .buttonHead {
     flex-direction: row;
+}
+
+table {
+    border: solid 3px darkgray;
+}
+
+table th {
+    border-bottom: solid 2px black;
+}
+
+table tr {
+    text-align: left;
+}
+
+.firstColumn {
+    border-right: solid 2px black;
 }
