@@ -1,0 +1,63 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+a:link {
+    color: black;
+}
+
+nav {
+    flex-direction: row;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 45%;
+    border: solid 5px darkgray;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+
+section h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    border-top: solid 3px lightgray;
+    border-bottom: solid 3px lightgray;
+    padding: 5px;
+    background-color: rgb(75, 73, 86);
+}
+
+.buttonToggle {
+    background-color: coral;
+}
+
+.buttonHead {
+    flex-direction: row;
+}
+
+table {
+    border: solid 3px darkgray;
+}
+
+table th {
+    border-bottom: solid 2px black;
+}
+
+table tr {
+    text-align: left;
+}
+
+.firstColumn {
+    border-right: solid 2px black;
+}

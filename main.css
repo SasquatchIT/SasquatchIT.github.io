@@ -2,11 +2,6 @@ body {
     font-family: Helvetica, sans-serif;
     background-color: darkcyan;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
 }
 
 a:link {
@@ -14,7 +9,17 @@ a:link {
 }
 
 nav {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+nav a {
+    border-style: groove;
+    padding: 8px;
+    background-color: coral;
 }
 
 img {
@@ -43,6 +48,7 @@ p {
 }
 
 .buttonHead {
+    display: flex;
     flex-direction: row;
 }
 
@@ -60,4 +66,54 @@ table tr {
 
 .firstColumn {
     border-right: solid 2px black;
+}
+
+#cssButton {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin: auto;
+    justify-content: center;
+    box-shadow: 3px 3px 3px black;
+    background-color: coral;
+}
+
+#siteHeader {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px black;
+}
+
+header h3 {
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+div table {
+    margin: auto;
+    width: 500px;
+    box-shadow: 2px 2px 10px black;
+    padding: 10px;
+}
+
+div table caption {
+    padding-top: 20px;
+}
+
+.sectionList {
+    columns: 2;
+    margin: auto;
+    background-color: darkred;
+    border: dotted 3px black;
+}
+
+li {
+    padding: 4px;
+}
+
+.externalLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

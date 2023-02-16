@@ -21,20 +21,24 @@
     </head>
     <body>
         <header>
-            <div class="buttonHead">
-                <h1>Popular Anime</h1>
-                <button onclick="toggleCSS()">Click Here To Change CSS!</button>
+            <div>
+                <h1 id="siteHeader">Popular Anime</h1>
+                <button onclick="toggleCSS()" id="cssButton">Click Here To Change CSS!</button>
             </div>
             <!-- the other website will just be a site about the general history of anime. We can just grab shit from wikipedia or something and format it to look nice, with links back to landing page.-->
+            <h3>Internal Links</h3>
             <nav>
-                <a href="animeHistory.html">History</a>
-                <ol>
-                    <li><a href="#MHA">My Hero Academia</a></li>
-                    <li><a href="#SG">Steins;Gate</a></li>
-                    <li><a href="#HXH">Hunter X Hunter</a></li>
-                    <li><a href="#FMAB">Full Metal Alchemist: Brotherhood</a></li>
-                    <li><a href="#BL">Bleach</a></li>
-                </ol>
+                <a href="animeHistory.html">Anime History</a>
+                <a href="#MHA">My Hero Academia</a></li>
+                <a href="#SG">Steins;Gate</a></li>
+                <a href="#HXH">Hunter X Hunter</a></li>
+                <a href="#FMAB">Full Metal Alchemist: Brotherhood</a></li>
+                <a href="#BL">Bleach</a></li>
+            </nav>
+            <h3>External Links</h3>
+            <nav class="externalLinks">
+                <a href="https://myanimelist.net/topanime.php" target="_blank">MyAnimeList Top Anime</a>
+                <a href="https://www.crunchyroll.com/" target="_blank">CrunchyRoll</a></li>
             </nav>
         </header>
         <section id="MHA" name="MHA"> <!-- Lets structure stuff so everything has its own section for readability.-->
@@ -48,7 +52,8 @@
                 Enduring many months of grueling training, Izuku enrolls in UA High, a prestigious high school famous for its excellent hero training program, and this year's freshmen look especially promising. With his bizarre but talented classmates and the looming threat of a villainous organization, Izuku will soon learn what it really means to be a hero.
             </p>
 
-            <ul>
+            <h3>Information:</h3>
+            <ul class="sectionList">
                 <li>Genre: Action</li>
                 <li>Air Date: Apr 3, 2016</li>
                 <li>Episodes: 132</li>
@@ -70,8 +75,8 @@
                 Apparently able to send text messages into the past using the microwave, Rintarou dabbles further with the "time machine," attracting the ire and attention of the mysterious organization SERN.<br><br>
                 Due to the novel discovery, Rintarou and his friends find themselves in an ever-present danger. As he works to mitigate the damage his invention has caused to the timeline, he is not only fighting a battle to save his loved ones, but also one against his degrading sanity.
             </p>
-
-            <ul>
+            <h3>Information:</h3>
+            <ul class="sectionList">
                 <li>Genre: Drama, Sci-Fi, Suspense</li>
                 <li>Air Date: Apr 6, 2011</li>
                 <li>Episodes: 24</li>
@@ -90,7 +95,8 @@
                 Believing that he will meet his father by becoming a Hunter, Gon takes the first step to walk the same path. During the Hunter Examination, Gon befriends the medical student Leorio Paladiknight, the vindictive Kurapika, and ex-assassin Killua Zoldyck.<br><br>
                 While their motives vastly differ from each other, they band together for a common goal and begin to venture into a perilous world.
             </p>
-            <ul>
+            <h3>Information:</h3>
+            <ul class="sectionList">
                 <li>Genre: Action, Adventure, Fantasy</li>
                 <li>Air Date: Oct 2, 2011</li>
                 <li>Episodes: 148</li>
@@ -109,8 +115,8 @@
                 Known as a bio-mechanical engineering prodigy, Winry creates prosthetic limbs for Edward by utilizing "automail," a tough, versatile metal used in robots and combat armor. After years of training, the Elric brothers set off on a quest to restore their bodies by locating the Philosopher's Stone—a powerful gem that allows an alchemist to defy the traditional laws of Equivalent Exchange.<br><br>
                 As Edward becomes an infamous alchemist and gains the nickname "Fullmetal," the boys' journey embroils them in a growing conspiracy that threatens the fate of the world.
             </p>
-
-            <ul>
+            <h3>Information:</h3>
+            <ul class="sectionList">
                 <li>Genre: Action, Adventure, Drama, Fantasy</li>
                 <li>Air Date: Apr 5, 2009</li>
                 <li>Episodes: 64</li>
@@ -129,8 +135,8 @@
                 Injured and unable to keep fighting, Rukia suggests a risky plan—transfer half of her Soul Reaper powers to Ichigo. He accepts and, to Rukia's surprise, ends up absorbing her powers entirely, allowing him to easily dispatch the Hollow.<br><br>
                 Now a Soul Reaper himself, Ichigo must take up Rukia's duties of exterminating Hollows and protecting spirits, both living and dead. Along with his friends Orihime Inoue and Yasutora Sado—who later discover spiritual abilities of their own—Ichigo soon learns that the consequences of becoming a Soul Reaper and dealing with the world of spirits are far greater than he ever imagined.
             </p>
-
-            <ul>
+            <h3>Information:</h3>
+            <ul class="sectionList">
                 <li>Genre: Action, Adventure, Fantasy</li>
                 <li>Air Date: Oct 5, 2004</li>
                 <li>Episodes: 366</li>
