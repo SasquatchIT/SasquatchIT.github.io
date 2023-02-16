@@ -8,6 +8,10 @@ a:link {
     color: black;
 }
 
+a:visited {
+  color: blue;
+}
+
 nav {
     display: flex;
     flex-direction: row;
