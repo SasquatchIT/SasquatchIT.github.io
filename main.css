@@ -128,6 +128,7 @@ div table caption {
     animation-name: changeColors;
     animation-duration: 5s;
     animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes changeColors {
