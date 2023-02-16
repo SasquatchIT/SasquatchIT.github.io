@@ -92,12 +92,12 @@ table tr {
     animation-iteration-count: infinite;
 }
 
-@keyframes rotateHeader {
-    0% {rotate(45deg);}
-    25% {rotate(-45deg);}
-    50% {rotate(45deg);}
-    75% {rotate(-45deg);}
-    100% {rotate(45deg);}
+@keyframes rotateHeader { 
+    0% {transform: rotate(45deg);}
+    25% {transform: rotate(-45deg);}
+    50% {transform: rotate(45deg);}
+    75% {transform: rotate(-45deg);}
+    100% {transform: rotate(45deg);}
 }
 header h3 {
     text-align: center;
