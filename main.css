@@ -90,6 +90,10 @@ header h3 {
     text-shadow: 2px 2px 2px black;
 }
 
+footer {
+    text-align: center;
+}
+
 div table {
     margin: auto;
     width: 500px;
