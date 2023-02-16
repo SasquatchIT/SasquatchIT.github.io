@@ -93,11 +93,11 @@ table tr {
 }
 
 @keyframes rotateHeader {
-    0% {rotate(45deg)}
-    25% {rotate(-45deg}
-    50% {rotate(45deg}
-    75% {rotate(-45deg}
-    100% {rotate(45deg}
+    0% {rotate(45deg);}
+    25% {rotate(-45deg);}
+    50% {rotate(45deg);}
+    75% {rotate(-45deg);}
+    100% {rotate(45deg);}
 }
 header h3 {
     text-align: center;
