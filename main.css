@@ -86,8 +86,19 @@ table tr {
     text-align: center;
     text-decoration: underline;
     text-shadow: 2px 2px 2px black;
+    animation-name: rotateHeader;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes rotateHeader {
+    0% {rotate(45deg)}
+    25% {rotate(-45deg}
+    50% {rotate(45deg}
+    75% {rotate(-45deg}
+    100% {rotate(45deg}
+}
 header h3 {
     text-align: center;
     padding: 10px;
