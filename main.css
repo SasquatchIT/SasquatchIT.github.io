@@ -114,6 +114,14 @@ div table caption {
     margin: auto;
     background-color: darkred;
     border: dotted 3px black;
+    animation-name: ChangeColors;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+@keyframes changeColors {
+  from { background-color: darkred;  }
+  to   { background-color: darkorange; }
 }
 
 li {
