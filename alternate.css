@@ -1,6 +1,6 @@
 html body {
     display: block;
-    font-family: Helvetica, sans-serif;
+    font-family: fantasy, sans-serif;
     background: url('Images\\wp4586808.jpg') repeat;
     color: white;
     min-height: 100%;
@@ -9,11 +9,11 @@ html body {
 }
 
 a:link {
-    color: black;
+    color: red;
 }
 
 a:visited {
-  color: blue;
+  color: green;
 }
 
 nav {
@@ -27,7 +27,7 @@ nav {
 nav a {
     border-style: groove;
     padding: 8px;
-    background-color: coral;
+    background-color: rgb(85, 95, 120);
 }
 
 img {
@@ -37,10 +37,21 @@ img {
     border: solid 5px darkgray;
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
+    animation-name: chaChaSlide;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes chaChaSlide {
+    from { margin-left: 100%; }
+    to { margin-left: 0%;}
+  }
 
 section h2 {
     text-align: center;
+    color: gray;
+    text-shadow: 2px 2px 2px black;
 }
 
 p {
@@ -83,30 +94,21 @@ table tr {
     margin: auto;
     justify-content: center;
     box-shadow: 3px 3px 3px black;
-    background-color: coral;
+    background-color: wheat;
 }
 
 #siteHeader {
     text-align: center;
     text-decoration: underline;
     text-shadow: 2px 2px 2px black;
-    animation-name: rotateHeader;
-    animation-duration: 4s;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
+    color: gray;
 }
 
-@keyframes rotateHeader { 
-    0% {transform: rotate(45deg);}
-    25% {transform: rotate(-45deg);}
-    50% {transform: rotate(45deg);}
-    75% {transform: rotate(-45deg);}
-    100% {transform: rotate(45deg);}
-}
 header h3 {
     text-align: center;
     padding: 10px;
     text-shadow: 2px 2px 2px black;
+    color: grey;
 }
 
 #footer {
@@ -136,8 +138,8 @@ div table caption {
 }
 
 @keyframes changeColors {
-  from { background-color: darkred;  }
-  to   { background-color: darkorange; }
+    from { background-color: darkblue;  }
+    to   { background-color: purple; }
 }
 
 li {
