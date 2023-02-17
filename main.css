@@ -27,7 +27,8 @@ nav a {
 }
 
 img {
-    display: block;
+    display: flex;
+    flex-direction: row;
     margin: auto;
     width: 45%;
     border: solid 5px darkgray;
