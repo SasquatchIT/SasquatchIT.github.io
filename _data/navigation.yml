@@ -1,4 +1,6 @@
 main:
+  - title: "Resume"
+    url: /resume/
   - title: "Homelab"
     url: /homelab/
   - title: "Game Journalism Blog"
