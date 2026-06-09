@@ -1,9 +1,7 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Homelab"
+    url: /homelab/
+  - title: "Game Journalism Blog"
+    url: /gamejournalismblog/
   - title: "About"
     url: /about/
